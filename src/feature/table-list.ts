@@ -18,7 +18,7 @@ export function mostrarMesasDisponibles(): void {
   console.log("🍽️ Mesas disponibles:");
   mesas.forEach(mesa => {
     if (!mesa.ocupada) {
-      console.log(`Mesa ${mesa.numero} (Capacidad: ${mesa.capacidad})`);
+      console.log(`La Mesa ${mesa.numero} con capacidad para ${mesa.capacidad}) comensales`);
     }
   });
 }
