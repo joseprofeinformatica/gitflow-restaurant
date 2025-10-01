@@ -18,7 +18,7 @@ export function login(email: string, password: string): boolean {
     console.log(`✅ Bienvenido ${usuario.email}`);
     return true;
   } else {
-    console.log("❌ Credenciales incorrectas");
+    console.log("❌ Las credenciales indicadas son incorrectas");
     return false;
   }
 }
