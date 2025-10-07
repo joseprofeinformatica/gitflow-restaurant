@@ -11,3 +11,9 @@ if (acceso) {
 } else {
   console.log("Acceso denegado ❌");
 }
+
+export function procesarReserva(cliente: string, total: number): string {
+  console.log(`Procesando reserva para ${cliente}.`);
+  console.log(`Total a pagar: ${total} €`);
+  return "Reserva completada correctamente.";
+}
