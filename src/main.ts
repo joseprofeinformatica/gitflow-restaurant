@@ -25,4 +25,6 @@ export function procesarReserva(cliente: string, total: number): string {
   console.log(`🎁 El cliente ${cliente} ha ganado ${puntosGanados} puntos.`);
   
   return "Reserva completada correctamente con puntos de recompensa con descuento.";
+  console.log(`Total a pagar: ${total} €`);
+  return "Reserva completada correctamente.";
 }
